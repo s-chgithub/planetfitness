@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.container
+{
+    box-shadow: 0px 0px 12px #ccc;
+    border-radius: 8px;
+    padding: 1rem;
+    width: 30%;
+    background-color: bisque;
+    
+    /* margin: 0 auto; */
+    
+}
+
+#a1
+{
+    padding:30px;
+}
+
+.container2
+{
+    box-shadow: 0px 0px 12px #ccc;
+    border-radius: 8px;
+    padding: 1rem;
+    width: 65%;
+    margin-left: 40px ;
+    background-color: antiquewhite;
+    
+    /* margin: 0 auto; */
+    
+}
+
+.main-container
+{
+    display: flex;
+}
+
+input {
+    width:100%;
+    font-size: 1.2rem;
+    padding: 8px 4px;
+    margin: 8px 4px;
+    border-radius: 8px;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    font-size: 1.2rem;
+    margin: 8px 0;
+    padding:10px;
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #333;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn-outline {
+    background-color: #ccc;
+    color: #333;
+
+}
+
+.center {
+    text-align: center;
+    margin: 24px 0;
+
+}
+
+p {
+    margin:10px 0;
+
+}
+
+.img-container {
+
+    text-align: center;
+
+}
+
+.img-container img {
+    height: 200px;
+}
+
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Optional: Adjust this to fit your design */
+  }
+
+
+  .scrollable-div {
+    width: 930px; /* Adjust width as needed */
+    height: 700px; /* Adjust height as needed */
+    overflow-y: scroll; /* Display vertical scrollbar */
+    /* Optionally, for a horizontal scrollbar: */
+    /* overflow-x: scroll; */
+  
+    /* Custom styling for scrollbar (for webkit-based browsers) */
+    scrollbar-width: thin; /* "auto" or "thin" for Firefox compatibility */
+    scrollbar-color: #888888 #f0f0f0; /* thumb and track colors */
+  }
+  
+  /* Webkit-specific styles for scrollbar */
+  .scrollable-div::-webkit-scrollbar {
+    width: 10px; /* Width of the scrollbar */
+  }
+  
+  .scrollable-div::-webkit-scrollbar-thumb {
+    background-color: #888888; /* Color of the scrollbar thumb */
+    border-radius: 5px; /* Roundness of the thumb */
+  }
+  
+  .scrollable-div::-webkit-scrollbar-track {
+    background-color: #f0f0f0; /* Color of the scrollbar track */
+  }
+  
+   
+  
